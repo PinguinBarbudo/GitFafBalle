@@ -28,3 +28,15 @@ Após essa parte foi acessado github
 
 git remote add origin https://github.com/PinguinBarbudo/GitFafBalle.git
 
+Esse comando ira adicionar o comando remote como o diretório remoto no github em que o arquivo será espelhado.
+Em seguida é só digitar o comando a seguir para enviar os seus arquivos para o github
+git push -u origin main
+
+Após digitar esse código, será aberta uma aba de login em que será possível autenticar o repositório
+
+Com essas modificações, será possível espelhar os commits no repositório do github.
+Para tal, basta apenas fazer os commits normalmente e depois de concluir todo o processo, basta digitar os seguinte comando:
+
+git push origin main
+
+Assim as modificações serão adicionadas no repositório do github.
